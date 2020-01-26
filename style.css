@@ -1,0 +1,168 @@
+
+html, body{
+    padding:0;
+    margin:0;
+    font-size:14px;
+    background-color:#fff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a, a:active, a:visited{
+    font-size:12px;
+}
+
+table{
+    font-size:14px;
+}
+
+h1,h2{
+    padding:0;
+    margin:0;
+}
+
+.rootWrapper{
+    width:100%;
+    height:100%;
+}
+
+.avatarWrapper{
+    position:relative;
+    left:100px;
+    margin-top:40px;
+    width:128px;
+    left:50%;
+    margin-left:-64px;
+    display:inline-block;
+}
+
+.avatarIcon{
+    width:128px;
+    height:128px;
+    border-radius:50%;
+    background-image:url("images/avatar.jpg");
+    background-size:128px 128px;
+}
+
+.avatarName{
+    margin-top:10px;
+    text-align:center;
+    width:128px;
+}
+
+.avatarDetails{
+    margin-top:10px;
+    text-align:center;
+    width:128px;
+    font-size:12px;
+    font-style:italic;
+}
+
+.linksTable{
+    margin-top:10px;
+    width:128px;
+}
+
+.linksTable td{
+    text-align:center;
+}
+
+.imgIco{
+    width:16px;
+    height:16px;
+}
+
+.worksWrapper{
+    margin-top:32px;
+    position:relative;
+    margin-left:-400px;
+    left:50%;
+    width:800px;
+    /*border:1px solid #000;*/
+}
+
+.worksWrapper h3{
+    font-size:12px;
+    margin-left:2px;
+    margin-bottom:4px;
+}
+
+.worksWrapper table{
+    font-size:12px;
+    width:100%;
+}
+
+.worksWrapper table td{
+    padding-top:5px;
+     padding-bottom:5px;
+}
+
+.worksWrapper .what{
+    width:128px;
+}
+
+.worksWrapper .when{
+    width:128px;
+    text-align:right;
+}
+
+.footer{
+    position:relative;
+    width:100%;
+    margin-top:20px;
+    padding-top:5px;
+    margin-bottom:50px;
+    font-size:12px;
+    text-align:center;
+    border-top:1px solid #000;
+}
+
+.ytLink{
+    display:inline-block;
+    position:relative;
+    margin-top:0;
+    width:16px;
+}
+
+.ytLink img{
+    position:absolute;
+    top:-12px;
+    
+}
+
+.worksWrapper td{
+    position:relative;
+}
+
+.titleTable{
+    border-bottom:1px solid #000;
+}
+
+.titleTable .description{
+    text-align:center;
+}
+
+.what div{
+    width:128px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+hr{
+    border:1px solid #eee;
+    margin-bottom:20px;
+}
+
+.legenda{
+    margin-top:10px;
+    position:relative;
+    width:400px;
+    left:50%;
+    margin-left:-200px;
+    text-align:center;
+}
+
+.simpleHR{
+    width:100%;
+    border-top:1px solid #000;
+}
